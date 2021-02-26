@@ -7,7 +7,7 @@ on:
   watch:
     types: started
   repository_dispatch:
-    types: sync-ziye12-JavaScript
+    types: sync-ziye666666-JavaScript
 jobs:
   repo-sync:
     env:
@@ -24,7 +24,7 @@ jobs:
         uses: repo-sync/github-sync@v2
         if: env.PAT
         with:
-          source_repo: "https://github.com/ziye12/JavaScript.git"
-          source_branch: "master"
-          destination_branch: "master"
+          source_repo: "https://github.com/ziye66666/JavaScript.git"
+          source_branch: "main"
+          destination_branch: "ziye"
           github_token: ${{ secrets.PAT }}
